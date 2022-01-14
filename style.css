@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #6edae6;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Section  1*/
+
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 100%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 95%, 50% 100%, 0 100%, 0 0);
+    position: relative;
+}
+
+
+/* Logo */
+
+.logo {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+
+.logo i {
+    font-size: 10rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* End of Logo */
+
+
+/* Navbar */
+
+.navbar {
+    position: absolute;
+    top: 3rem;
+    right: 10%;
+}
+
+.navbar-link {
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0 3rem;
+    color: var(--black-color);
+    transition: transform 0.5s;
+}
+
+.navbar-link:hover {
+    transform: scale(1.5);
+}
+
+
+/* Banner  */
+
+
+/* End of the Banner  */
+
+
+/* End of Navbar */
+
+
+/* End of Section 1  */
